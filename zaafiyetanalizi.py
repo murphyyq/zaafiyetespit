@@ -13,4 +13,4 @@ nikto zaaafiyet tarama aracı kullanmak için bir kabuk yani 0 dan oluşturulmu�
        """)
 
 hedef = input("\33[1;33mHedefi gir aslanım: ")
-os.system("nikto -h" + hedef)
+os.system("nikto -h " + hedef)
